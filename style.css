@@ -79,3 +79,41 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.contact {
+    text-align: center;
+}
+
+.contact-grid {
+    display: grid;
+    gap: 1rem;
+    max-width: 700px;
+    margin: 2rem auto 0;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.25rem;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    background: #fff;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-label {
+    display: block;
+    font-weight: 700;
+}
+
+.contact-handle {
+    color: #667eea;
+}
